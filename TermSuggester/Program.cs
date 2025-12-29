@@ -4,10 +4,13 @@ using TermSuggester.Suggesters;
 
 namespace TermSuggester;
 
+//Structure pour des tests simples
 internal record TestTermSet(string Input, IReadOnlyList<string> Terms, int MaxResults);
+
 
 internal static class Program
 {
+    //mise en forme console pour tester les suggester
     private static void RunTest(ITermSuggester suggester, TestTermSet test)
     {
         Console.WriteLine($"[{suggester.GetType().Name}] Input: \"{test.Input}\"");
@@ -15,7 +18,7 @@ internal static class Program
             Console.WriteLine($"  - {r}");
         Console.WriteLine();
     }
-
+    
     private static void Main()
     {
         var suggesters = new ITermSuggester[]

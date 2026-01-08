@@ -4,6 +4,15 @@ Mini-kata en C# implémentant un moteur de suggestion de termes basé sur un sco
 
 ---
 
+## Contenus
+
+3 projets : 
+Core -> coeur de l'exercice, implémentation d'une solution avec division des responsabilités. 
+Console -> legacy, pour tester rapidement avec la console (exemple en fin de readme)
+Tests -> tests unitaires avec nUnit
+
+---
+
 ## Règles de suggestion
 
 À partir d’un terme d’entrée et d’une liste de termes candidats (match) :

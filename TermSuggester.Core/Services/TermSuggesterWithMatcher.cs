@@ -1,4 +1,6 @@
-namespace TermSuggester.Suggesters;
+using TermSuggester.Core.Tools;
+
+namespace TermSuggester.Core.Services;
 
 /// <summary>
 /// Version avec une struct intermédiaire pour stocker les données de comparaison

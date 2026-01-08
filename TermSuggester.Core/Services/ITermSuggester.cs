@@ -1,4 +1,4 @@
-namespace TermSuggester.Suggesters;
+namespace TermSuggester.Core.Services;
 
 public interface ITermSuggester
 {

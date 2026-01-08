@@ -1,4 +1,6 @@
-namespace TermSuggester.Suggesters;
+using TermSuggester.Core.Tools;
+
+namespace TermSuggester.Core.Services;
 
 /// <summary>
 /// 1st version (intuitive one)

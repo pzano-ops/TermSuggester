@@ -1,4 +1,4 @@
-namespace TermSuggester;
+namespace TermSuggester.Core.Tools;
 
 /// <summary>
 /// Compute similarity score. (following guidelines)
